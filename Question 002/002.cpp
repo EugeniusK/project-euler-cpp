@@ -10,16 +10,16 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 
 int main()
 {
-    std::cout << "Project Euler - Question 2\n";
-    int total = 0;
-    int a = 1, b = 2;
-    while (a < 4000000) {
-        int tmp = b;
-        b = a + b;
-        a = tmp;
-        if (a % 2 == 0) {
-            total += a;
-        }
-    }
-    std::cout << "Solution " << total << "\n";
+	std::cout << "Project Euler - Question 2\n";
+	int total = 0;
+	int a = 1, b = 2;
+	while (a < 4000000) {
+		int tmp = b;
+		b = a + b;
+		a = tmp;
+		if (a % 2 == 0) {
+			total += a;
+		}
+	}
+	std::cout << "Solution " << total << "\n";
 }

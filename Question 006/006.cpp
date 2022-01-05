@@ -12,12 +12,12 @@ Find the difference between the sum of the squares of the first one hundred natu
 
 int main()
 {
-    std::cout << "Project Euler - Question 6\n";
-    long int s1 = 0, s2 = 0;
-    for (int i = 1; i <= 100; i++) {
-        s1 += pow(i, 2);
-        s2 += i;
-    }
-    s2 = pow(s2, 2);
-    std::cout << "Solution " << s2 - s1 << "\n";
+	std::cout << "Project Euler - Question 6\n";
+	long int s1 = 0, s2 = 0;
+	for (int i = 1; i <= 100; i++) {
+		s1 += pow(i, 2);
+		s2 += i;
+	}
+	s2 = pow(s2, 2);
+	std::cout << "Solution " << s2 - s1 << "\n";
 }
