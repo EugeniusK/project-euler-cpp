@@ -6,6 +6,7 @@
 # Some Visual Studio files
 *.vcxproj
 *.vcxproj.filters
+*.sln
 
 # User-specific files
 *.rsuser
